@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AutoBot - AI WhatsApp Automation Landing Page
 
-## Getting Started
+A modern, fully responsive landing page built with Next.js, TypeScript, Tailwind CSS, and Vercel v0.
+This project is created as a part of a frontend assignment to demonstrate UI design skills, code structure, responsiveness and usage of AI-generated components via Vercel v0.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo Link
+
+🔗 url
+
+---
+
+## 📌 Project Overview
+
+AutoBot is a conceptual landing page for an AI-POWERED WhatsApp Automation SaaS product. It contains essential sections commonly found in modern SaaS websites, including:
+
+- Hero Section
+- Features Overview
+- Testimonials
+- Pricing Section
+- Footer
+
+## 🛠️ Tech Stack
+
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **TypeScript**
+- **Vercel v0**
+
+## 🤖 Use of Vercel v0 (Required in Assignment)
+
+It is used to generate some initial/base UI components which were then refined manually.
+
+### Components generated using Vercel v0:
+
+- **Button**
+- **Avatar**
+- **Card**
+- **Hero Section**
+
+### Custom-built and manually refined:
+
+- **Features Section**
+- **Testimonials Section**
+- **Pricing Section**
+- **Footer**
+- Additional styling, layout improvements, responsiveness, and components structure.
+
+Usage of this hybrid approach shows the ability to use AI tools efficiently while still applying strong frontend fundamentals.
+
+---
+
+## 📂 Project Structure
+
+app/
+├── components/
+│ ├── ui/
+│ │ ├── Button.tsx  
+│ │ ├── Avatar.tsx  
+│ ├── Hero.tsx  
+│ ├── Features.tsx  
+│ ├── Testimonials.tsx  
+│ ├── Pricing.tsx  
+│ └── Footer.tsx
+├── globals.css
+├── layout.tsx
+├── page.tsx
+├── lib/
+│ └── utils.ts  
+└── public
+
+## 🎯 Features
+
+- Fully responsive layout for all screen sizes
+- Modular component structure for reusability
+- Modern SaaS UI design
+- Smooth integration of AI-generated UI components
+
+## 🧑‍💻 Installation guide
+
+###1. Clone the repository
 
 ```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+###2. Install dependencies
+npm install
+
+###3. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧑‍💻 Author
 
-## Learn More
+Nandni Atray
+(Frontend Developer)
+thelearner049@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ using Next.js, TypeScript, Tailwind CSS, Vercel v0 and ☕.
