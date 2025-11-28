@@ -56,20 +56,20 @@ Usage of this hybrid approach shows the ability to use AI tools efficiently whil
 
 app/
 ├── components/
-│ ├── ui/
-│ │ ├── Button.tsx  
-│ │ ├── Avatar.tsx  
-│ ├── Hero.tsx  
-│ ├── Features.tsx  
-│ ├── Testimonials.tsx  
-│ ├── Pricing.tsx  
-│ └── Footer.tsx
-├── globals.css
-├── layout.tsx
-├── page.tsx
+│   ├── ui/
+│   │   ├── Button.tsx         
+│   │   ├── Avatar.tsx         
+│   │   └── Card.tsx    
+│   ├── Hero.tsx  
+│   ├── Features.tsx 
+│   ├── Testimonials.tsx
+│   ├── Pricing.tsx
+│   └── Footer.tsx              
 ├── lib/
-│ └── utils.ts  
-└── public
+│   └── utils.ts        
+├── globals.css
+├── layout.tsx                       
+└── page.tsx                      
 
 ## 🎯 Features
 
