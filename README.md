@@ -7,7 +7,7 @@ This project is created as a part of a frontend assignment to demonstrate UI des
 
 ## 🚀 Live Demo Link
 
-🔗 url
+🔗 [url](https://auto-bot-beta.vercel.app/)
 
 ---
 
